@@ -9,7 +9,7 @@ if idade >= 18:
        else:
           valor_emprestimo = int(input('Digite o valor do empréstimo: '))
           parcela = valor_emprestimo / (12 * tempo_anos)
-          if valor_emprestimo / 100 > parcela * 0.30:
+          if parcela > salario * 0.30:
              print('Seu empréstimo foi aprovado!')
              print(f'O cliente tem {idade} anos, salário de R$ {salario} e {tempo_anos} anos de trabalho - todas as condições foram atendidas, portanto o empréstimo é aprovado')
           else: 
