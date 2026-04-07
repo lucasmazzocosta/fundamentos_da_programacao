@@ -27,3 +27,8 @@ not -> não -> nega a condição, se for falso é verdadeiro e se for verdadeiro
 ``if (se)`` -> Verifica se uma condição é true (verdadeira). Se for ele executa o código.
 ``elif (senão se)`` -> É usado para testar várias condições. Ele só executa se todas as condições anteriores forem falsas.
 ``else (senão)`` -> Executa o código se a condição if for false (falsa).
+
+## Conversão de tipos em Python
+1. int() -> a gente vai incuir qual variável/dado que queremos converter para número inteiro.
+2. float() -> a gente vai incuir qual variável/dado que queremos converter para número decimal.
+3. str() -> a gente vai incuir qual variável/dado que queremos converter para texto.
