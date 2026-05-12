@@ -20,6 +20,9 @@ not -> não -> nega a condição, se for falso é verdadeiro e se for verdadeiro
 # Métodos em python
 1. print() -> exibe informações mo terminals
 2. input() -> capturar uma informação no terminal
+3. lower() -> converte toda a string em minúscula
+4. upper() -> converte toda a string em maiúscula
+5. isdigit() -> verifica se o valor contém número
 
 # Format em python
 
